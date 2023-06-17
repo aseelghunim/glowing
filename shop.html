@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Font awesome 6 -->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <!-- Bootstrap 5.2 CSS-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/shop.css">    
+    <!-- media query  -->
+    <link rel="stylesheet" href="assets/css/media.css" />
+    <title>Glowing | Shop</title>
+  </head>
+  <body>
+    <!-- start navbar section  -->
+    <div class="nav-top text-center d-none d-lg-block">
+      <p class="mb-0">FREE SHIPPING ON ALL U.S. ORDERS $50+</p>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <div class="search d-none d-lg-block" id="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search">
+        </div>
+        <button class="navbar-toggler" type="button" id="nav-btn" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="shop.html">SHOP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item text-center d-none d-lg-block">
+              <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="" class="" /></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+            <li class="nav-item me-0">
+              <a class="nav-link me-0" href="#">FAQ</a>
+            </li>
+          </ul>
+          <div class="nav-icons d-none d-lg-block">
+            <a href="#"> <i class="fa-regular fa-user"></i> </a>
+            <a href="#"> <i class="fa-regular fa-star"></i> </a>
+            <a href="#"> <i class="fa-solid fa-cart-shopping"></i> </a>
+          </div>
+        </div>
+      </div>
+    </nav>  
+ 
+  <!-- end of navbar section  -->
+  <div class="shop-content">
+    
+    <div class="container-lg">
+        <h1 class="text-capitalize text-center my-5">shop</h1>
+        <div class="top-content">
+             <div class="filter d-flex justify-content-end align-items-center">
+            <i class="fa-solid fa-border-all d-none d-lg-block" id="grid"></i>
+            <i class="fa-solid fa-bars d-none d-lg-block" id="column"></i>
+            <input type="text" name="" id="product-search" placeholder="Search..">
+            <a href="" id="filter-link" class="text-capitalize"><i class="fa-solid fa-sliders"></i>filter</a>
+        </div>
+        <div class="filter-content text-center pt-4" id="filter-content">
+            <div class="row" >
+                <div class="col-md-6 col-lg-4">
+                    <div class="item">
+                        <h4>filter by price</h4>
+                        <ul>
+                            <li id="price-1"><a href="">$10 - $15</a></li>
+                            <li id="price-2"><a href="">$16 - $30</a></li>
+                            <li id="price-3"><a href="">$31 - $50</a></li>
+                            <li id="price-4"><a href="">More than $50</a></li>
+                            <li class="all-products"><a href="">All</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="item">
+                        <h4>filter by category</h4>
+                        <ul>
+                            <li id="skin-cat"><a href="">skin care products</a></li>
+                            <li id="body-cat"><a href="">body care products</a></li>
+                            <li id="hair-cat"><a href="">hair care products</a></li>
+                            <li id="access-cat"><a href="">accessories</a></li>
+                            <li class="all-products"><a href="">All</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="item colors">
+                        <h4>filter by color</h4>
+                        <ul>
+                            <li><a href="">Gray</a></li>
+                            <li><a href="">Blue</a></li>
+                            <li><a href="">Green</a></li>
+                            <li><a href="">Yellow</a></li>
+                            <li class="all-products"><a href="">All</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="products" >
+            <div class="row" id="products"></div>
+        </div>
+    </div>
+  </div>
+  <!-- start of footer section  -->
+  <footer class="footer reveal py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="item">
+            <h3>Care for Your Skin,<br />
+              Care for Your Beauty</h3>
+              <p class="desc">Smile with the reflection of the glow. Let your Skin define your age and not the years</p>
+              <a href="" class="find-a-store text-capitalize d-flex align-items-center">find a store<i class="fa-solid fa-arrow-right ms-2"></i></a>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2 ">
+          <div class="item">
+            <h4 class="text-capitalize">company</h4>
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Store locations</a></li>
+              <li><a href="#">Our blog</a></li>
+              <li><a href="#">Reviews</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2 ">
+          <div class="item">
+            <h4 class="text-capitalize">useful links</h4>
+            <ul>
+              <li><a href="#">New products</a></li>
+              <li><a href="#">Best sellers</a></li>
+              <li><a href="#">Bundle & Save</a></li>
+              <li><a href="#">Online Gift Card</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="item">
+            <h4 class="text-capitalize">information</h4>
+            <ul>
+              <li><a href="#">Start a return</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">Shipping FAQ</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      <div class="row align-items-center">
+        <div class="col-md-4">
+            <span>© Glowing 2022</span>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="assets/images/logo.png" alt="logo" class="w-50">
+        </div>
+        <div class="col-md-4 text-end">
+          <img src="assets/images/icon-pay.png" alt="payment methods" class="w-100">
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/bootstrap.bundle.js"></script>
+  <script src="assets/js/jquery-1.11.0.min.js"></script>
+  <script src="assets/owlcarousel/owl.carousel.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- <script src="assets/js/main.js"></script> -->
+  <script src="assets/js/shop.js"></script>
+  </body>
+</html>
